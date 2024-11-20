@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+
+<html lang="fr-fr">
+    <head>
+        <link href="index.css" type="text/css" rel="stylesheet" />
+        <title>book_list</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <div>
+            <p class="title">Liste de livres</p>
+            <table>
+                <tr id="titres">
+                    <th>Book #</th>
+                    <th>title</th>
+                    <th>author</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td>la horde du contrevent</td>
+                    <td>A.Damasio</td>
+                    <td>
+                        <form action ="edit_book" method="POST">
+                            <button>
+                                <img src="img/edit.png" alt="edit" class="icon" />
+                            </button>
+                            <button>
+                                <img src="img/bin.png" alt="edit" class="icon" />
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td>la huitième couleur</td>
+                    <td>T.Pratchett</td>
+                    <td>
+                        <form action ="edit_book" method="POST">
+                            <button>
+                                <img src="img/edit.png" alt="edit" class="icon" />
+                            </button>
+                            <button>
+                                <img src="img/bin.png" alt="edit" class="icon" />
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+                <tr id="total">
+                    <td colspan="3"></td>
+                    <td>
+                        <form action ="delete_book" method="POST">
+                            <button>
+                                <img src="img/plus.png" alt="edit" class="icon" />
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

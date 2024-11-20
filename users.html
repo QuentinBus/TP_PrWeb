@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+
+<html lang="fr-fr">
+    <head>
+        <link href="index.css" type="text/css" rel="stylesheet" />
+        <title>login Page</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <div>
+            <p class="title">Liste d'utilisateurs</p>
+            <table>
+                <tr id="titres">
+                    <th>User #</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>12</th>
+                    <td>Quentin</td>
+                    <td>Bussard</td>
+                    <td>15/01/2002</td>
+                    <td>
+                        <form action ="edit_user" method="POST">
+                            <button>
+                                <img src="img/edit.png" alt="edit" class="icon" />
+                            </button>
+                            <button>
+                                <img src="img/bin.png" alt="edit" class="icon" />
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+                <tr id="total">
+                    <td colspan="4"></td>
+                    <td>
+                        <form action ="delete_user" method="POST">
+                            <button>
+                                <img src="img/plus.png" alt="edit" class="icon" />
+                            </button>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+table{
+    border:1px solid green;
+    color:forestgreen;
+}
+
+tr{
+    background-color: white;
+    color: forestgreen;
+}
+
+td{
+    border: 1px solid green;
+}
+
+th{
+    background-color: yellowgreen;
+    color:white;
+}
+

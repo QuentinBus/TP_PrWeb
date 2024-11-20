@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+
+<html lang="fr-fr">
+    <head>
+        <link href="index.css" type="text/css" rel="stylesheet" />
+        <title>book_borrow</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <div>
+            <p class="title">Borrowing page</p>
+            <p>First Name: Quentin</p>
+            <p>Last Name: Bussard</p>
+            <form action ="edit_borrows" method="POST">
+                <table>
+                    <tr>
+                        <th>Date</th>
+                        <th>Title</th>
+                        <th>Return</th>
+                    </tr>
+                    <tr>
+                        <td>21-10-2024</td>
+                        <td>La horde du contrevent</td>
+                        <td>11-12-2024</td>
+                    </tr>
+                    <tr>
+                        <td>21-10-2024</td>
+                        <td>La huitième couleur</td>
+                        <td class="conteneur bouton">
+                            <button>
+                                <img src="img/fleche.png" alt="edit" class="icon" />
+                            </button>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td></td>
+                        <td>
+                            <select name=”livre”>
+                            <option value=”-1” selected=”selected”>-</option>
+                            <option value=”1”>Le hobbit</option>
+                            <option value=”2”>les deux tours</option>
+                        </td>
+                        <td class="conteneur_bouton">
+                            <button>
+                                <img src="img/plus.png" alt="edit" class="icon" />
+                            </button>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
