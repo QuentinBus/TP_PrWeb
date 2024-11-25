@@ -6,8 +6,20 @@
         <link href="ex2.css" type="text/css" rel="stylesheet" />
         <title>Hello World</title>
         <meta charset="UTF-8"/>
+        <script type="text/javascript" src="jquery/MyScript1.jsx" >
+</script>
     </head>
     <body>
-        <p id="bonjour"><a href="ex2.html">Hello </a>World</p>
+        <script type="text/javascript">
+            writeText();
+        </script>
+        <p id="bonjour"><span onmouseover="writeText2();"><a href="ex2.html"> Hello </a>World</span></p>
+        <p>
+            <span id="mytext" onmouseover="changeColor(this, 'blue')"  onmouseout="changeColor(this,'red')">
+                Hello
+            </span> 
+            world
+        </p>
+        
     </body>
 </html>
